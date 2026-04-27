@@ -21,5 +21,14 @@ set bot token get from [BotFather](https://telegram.me/BotFather)
 `pip3 install -r requirements.txt`
 `python3 bot.py`
 
-You can contact me [tg](https://telegram.me/nitin_181) my tg channel [here](https://telegram.me/binverse2)
+You can contact me [tg](https://telegram.me/xbinner18) my tg channel [here](https://telegram.me/binverse2)
 Feel free to donate me ..
+
+```diff
+- <#Disclaimer>
+- I am not responsible for any inappropriate use of this project.
+- I have created this for education purpose only.
+- This project doesnt support any cybercrime its just for education.
+- This is an opensource project selling it isnt allowed.
+```
+
