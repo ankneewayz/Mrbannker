@@ -31,7 +31,12 @@ dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(level=logging.INFO)
 
 # BOT INFO
-loop = asyncio.get_event_loop()
+# BOT INFO
+try:
+    loop = asyncio.get_event_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
 
 bot_info = loop.run_until_complete(bot.get_me())
 BOT_USERNAME = bot_info.username
